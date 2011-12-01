@@ -1,5 +1,5 @@
 # Inherit common stuff
-$(call inherit-product, vendor/codenamedroid/config/common.mk)
+$(call inherit-product, vendor/cnd/config/common.mk)
 
 # Bring in all audio files
 include frameworks/base/data/sounds/AllAudio.mk

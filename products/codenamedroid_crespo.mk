@@ -1,10 +1,10 @@
 $(call inherit-product, device/samsung/crespo/full_crespo.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/codenamedroid/config/common_full_phone.mk)
+$(call inherit-product, vendor/cnd/config/common_full_phone.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/codenamedroid/config/gsm.mk)
+$(call inherit-product, vendor/cnd/config/gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := NS

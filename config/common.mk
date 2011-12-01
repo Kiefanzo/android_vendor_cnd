@@ -14,7 +14,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dataroaming=false
 
 PRODUCT_COPY_FILES +=  \
-    vendor/codenamedroid/prebuilt/common/bootanimation.zip:system/media/bootanimation.zip
+    vendor/cnd/prebuilt/common/bootanimation.zip:system/media/bootanimation.zip
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -40,7 +40,7 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     PhaseBeam
 
-PRODUCT_PACKAGE_OVERLAYS += vendor/codenamedroid/overlay/dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/cnd/overlay/dictionaries
 
 BRANCH = MOD
 PRODUCT_VERSION_MAJOR = 1
