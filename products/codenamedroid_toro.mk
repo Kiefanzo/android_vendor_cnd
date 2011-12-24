@@ -3,8 +3,8 @@ $(call inherit-product, device/samsung/toro/full_toro.mk)
 # Inherit some common stuff.
 $(call inherit-product, vendor/cnd/config/common_full_phone.mk)
 
-# Inherit some common stuff.
-$(call inherit-product, vendor/cnd/config/gsm.mk)
+PRODUCT_COPY_FILES +=  \
+    vendor/cnd/prebuilt/common/xhdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # Release name
 PRODUCT_RELEASE_NAME := GN(CDMA/LTE)

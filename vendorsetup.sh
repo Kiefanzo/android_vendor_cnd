@@ -4,4 +4,3 @@ add_lunch_combo codenamedroid_maguro-userdebug
 add_lunch_combo codenamedroid_toro-userdebug
 add_lunch_combo codenamedroid_stingray-userdebug
 add_lunch_combo codenamedroid_wingray-userdebug
-
