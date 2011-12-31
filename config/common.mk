@@ -36,6 +36,8 @@ PRODUCT_PACKAGES += \
     LiveWallpapersPicker \
     VisualizationWallpapers \
     PhaseBeam
+        
+PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/common
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/cnd/overlay/dictionaries
 
