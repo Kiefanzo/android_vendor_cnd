@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
 
 # Required packages
 PRODUCT_PACKAGES += \
+    CNDLauncher \
     LatinIME \
     Superuser \
     su
