@@ -1,0 +1,3 @@
+<resources>
+    <bool name="config_settings_menu">true</bool>
+</resources>
