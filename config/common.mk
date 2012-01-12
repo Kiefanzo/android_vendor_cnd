@@ -18,7 +18,15 @@ PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
     
 PRODUCT_COPY_FILES += \
-    vendor/cnd/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh
+    vendor/cnd/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/cnd/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/cnd/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd \
+    vendor/cnd/prebuilt/common/media/AndroidInSpace.240p.mp4:system/media/video/AndroidInSpace.240p.mp4 \
+    vendor/cnd/prebuilt/common/media/AndroidInSpace.480p.mp4:system/media/video/AndroidInSpace.480p.mp4 \
+    vendor/cnd/prebuilt/common/media/Disco.240p.mp4:system/media/video/Disco.240p.mp4 \
+    vendor/cnd/prebuilt/common/media/Disco.480p.mp4:system/media/video/Disco.480p.mp4 \
+    vendor/cnd/prebuilt/common/media/Sunset.240p.mp4:system/media/video/Sunset.240p.mp4 \
+    vendor/cnd/prebuilt/common/media/Sunset.480p.mp4:system/media/video/Sunset.480p.mp4
 
 # Required packages
 PRODUCT_PACKAGES += \
