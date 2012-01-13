@@ -17,6 +17,8 @@
 */
 -->
 
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds. -->
 <resources>
 
     <!-- Boolean indicating if current platform supports quick switch-on/off of
