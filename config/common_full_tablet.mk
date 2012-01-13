@@ -11,8 +11,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.alarm_alert=Cesium.ogg \
     ro.kernel.android.checkjni=0 \
     windowsmgr.max_events_per_sec=240
-
+    
 PRODUCT_PACKAGES += \
-    CNDLauncher \
-    CNDSettings \
+    CNDLauncherTab \
+    CNDSettingsTab \
     Mms
+
