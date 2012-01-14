@@ -1,7 +1,7 @@
 $(call inherit-product, device/moto/wingray/full_wingray.mk)
 
 # Inherit some common stuff.
-$(call inherit-product, vendor/cnd/config/common_full_phone.mk)
+$(call inherit-product, vendor/cnd/config/common_full_tablet_wifionly.mk)
 
 PRODUCT_COPY_FILES +=  \
     vendor/cnd/prebuilt/common/hdpi/bootanimation.zip:system/media/bootanimation.zip
