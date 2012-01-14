@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
 
 # Required packages
 PRODUCT_PACKAGES += \
+    RomManager \
     LatinIME \
     Superuser \
     su
