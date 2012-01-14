@@ -3,9 +3,6 @@ $(call inherit-product, device/moto/stingray/full_stingray.mk)
 # Inherit some common stuff.
 $(call inherit-product, vendor/cnd/config/common_full_tablet.mk)
 
-PRODUCT_COPY_FILES +=  \
-    vendor/cnd/prebuilt/common/hdpi/bootanimation.zip:system/media/bootanimation.zip
-
 # Release name
 PRODUCT_RELEASE_NAME := XOOM(4G)
 
