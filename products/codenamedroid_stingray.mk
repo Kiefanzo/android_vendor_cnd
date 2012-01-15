@@ -12,4 +12,4 @@ PRODUCT_NAME := codenamedroid_stingray
 PRODUCT_DEVICE := stingray
 PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Xoom
-PRODUCT_MANUFACTURER := Moto
+PRODUCT_MANUFACTURER := Motorola
