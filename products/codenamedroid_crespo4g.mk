@@ -4,7 +4,7 @@ $(call inherit-product, device/samsung/crespo4g/full_crespo4g.mk)
 $(call inherit-product, vendor/cnd/config/common_full_phone.mk)
 
 PRODUCT_COPY_FILES +=  \
-    vendor/cnd/prebuilt/common/hdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/cnd/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
 
 # Release name
 PRODUCT_RELEASE_NAME := NS4G
